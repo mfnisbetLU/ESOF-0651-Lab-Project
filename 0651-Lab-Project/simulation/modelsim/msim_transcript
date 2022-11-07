@@ -1,0 +1,103 @@
+# Reading pref.tcl
+# do project_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying D:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/mattc/OneDrive/Desktop/Eele-0651\ Project\ Files/project {C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/project.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:56:57 on Nov 06,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project" C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/project.v 
+# -- Compiling module project
+# 
+# Top level modules:
+# 	project
+# End time: 15:56:57 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mattc/OneDrive/Desktop/Eele-0651\ Project\ Files/project {C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/add2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:56:57 on Nov 06,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project" C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/add2.v 
+# -- Compiling module add2
+# 
+# Top level modules:
+# 	add2
+# End time: 15:56:57 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mattc/OneDrive/Desktop/Eele-0651\ Project\ Files/project {C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:56:57 on Nov 06,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project" C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 15:56:57 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mattc/OneDrive/Desktop/Eele-0651\ Project\ Files/project {C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/programCounter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:56:57 on Nov 06,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project" C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/programCounter.v 
+# -- Compiling module programCounter
+# 
+# Top level modules:
+# 	programCounter
+# End time: 15:56:57 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mattc/OneDrive/Desktop/Eele-0651\ Project\ Files/project {C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/registerFile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:56:57 on Nov 06,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project" C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/registerFile.v 
+# -- Compiling module registerFile
+# 
+# Top level modules:
+# 	registerFile
+# End time: 15:56:57 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mattc/OneDrive/Desktop/Eele-0651\ Project\ Files/project {C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/instructionMemory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:56:57 on Nov 06,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project" C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/instructionMemory.v 
+# -- Compiling module instructionMemory
+# 
+# Top level modules:
+# 	instructionMemory
+# End time: 15:56:57 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/mattc/OneDrive/Desktop/Eele-0651\ Project\ Files/project/simulation/modelsim {C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/simulation/modelsim/project.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:56:57 on Nov 06,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/simulation/modelsim" C:/Users/mattc/OneDrive/Desktop/Eele-0651 Project Files/project/simulation/modelsim/project.vt 
+# -- Compiling module project_vlg_tst
+# 
+# Top level modules:
+# 	project_vlg_tst
+# End time: 15:56:57 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  project_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" project_vlg_tst 
+# Start time: 15:56:57 on Nov 06,2022
+# Loading work.project_vlg_tst
+# Loading work.project
+# Loading work.add2
+# Loading work.programCounter
+# Loading work.instructionMemory
+# Loading work.registerFile
+# Loading work.alu
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 15:57:17 on Nov 06,2022, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0
